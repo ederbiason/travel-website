@@ -10,6 +10,12 @@ module.exports = {
       },
       borderRadius: {
         md: '4px'
+      },
+      backgroundImage: {
+        'header-image': "url('./src/assets/images/header-image.jpg')",
+      },
+      fontFamily: {
+        header: ["Header Font", "cursive"]
       }
     },
   },
