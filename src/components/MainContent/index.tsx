@@ -1,5 +1,9 @@
+import * as C from './styles';
+
 export function MainContent() {
     return (
-        <div></div>
+        <C.Container>
+            
+        </C.Container>
     )
 }
