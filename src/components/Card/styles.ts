@@ -58,4 +58,5 @@ export const CardDescriptionItem = styled.li`
     margin: 4px 0;
     color: grey;
     font-weight: bold;
+    gap: 7px;
 `

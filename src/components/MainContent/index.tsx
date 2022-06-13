@@ -23,8 +23,8 @@ export function MainContent() {
                     alt="Imagem do Pico Paraná"
                     value="R$ Valor"
                     date="(Dia) e (Dia) de (Mês)"
-                    firstInfo="Altitude 1.877 metros"
-                    secondInfo="Dificuldade avançado"
+                    firstInfo="Acampamento"
+                    secondInfo="Alimentação"
                 />
                 <Card
                     title="Pacote Pico Caratuva"
@@ -32,8 +32,8 @@ export function MainContent() {
                     alt="Imagem do Pico Caratuva"
                     value="R$ Valor"
                     date="(Dia) e (Dia) de (Mês)"
-                    firstInfo="Altitude 1.860 metros"
-                    secondInfo="Dificuldade avançado"
+                    firstInfo="Acampamento"
+                    secondInfo="Alimentação"
                 />
                 <Card
                     title="Pacote Pico Agudo"
@@ -41,8 +41,8 @@ export function MainContent() {
                     alt="Imagem do Pico Agudo"
                     value="R$ Valor"
                     date="(Dia) e (Dia) de (Mês)"
-                    firstInfo="Altitude 1.200 metros"
-                    secondInfo="Dificuldade intermediário"
+                    firstInfo="Acampamento"
+                    secondInfo="Alimentação"
                 />
             </C.CardWrapper>
 
@@ -55,8 +55,8 @@ export function MainContent() {
                     alt="Imagem da cachoeira Sengés"
                     value="R$ Valor"
                     date="(Dia) e (Dia) de (Mês)"
-                    firstInfo="Altitude 1. metros"
-                    secondInfo="Dificuldade avançado"
+                    firstInfo="Acampamento"
+                    secondInfo="Alimentação"
                 />
                 <Card
                     title="Pacote Jaguaraíva"
@@ -64,8 +64,8 @@ export function MainContent() {
                     alt="Imagem da cachoeira Jaguaraíva"
                     value="R$ Valor"
                     date="(Dia) e (Dia) de (Mês)"
-                    firstInfo="Altitude 1.877 metros"
-                    secondInfo="Dificuldade avançado"
+                    firstInfo="Acampamento"
+                    secondInfo="Alimentação"
                 />
                 <Card
                     title="Pacote Buraco do Padre"
@@ -73,8 +73,8 @@ export function MainContent() {
                     alt="Imagem da cachoeira Buraco do Padre"
                     value="R$ Valor"
                     date="(Dia) e (Dia) de (Mês)"
-                    firstInfo="Altitude 1.877 metros"
-                    secondInfo="Dificuldade avançado"
+                    firstInfo="Acampamento"
+                    secondInfo="Alimentação"
                 />
             </C.CardWrapper>
         </C.Container>
