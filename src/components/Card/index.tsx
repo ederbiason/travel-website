@@ -1,22 +1,23 @@
 import * as C from './styles';
 
+
 type Props = {
     title: string;
     imageSrc: string;
-    src: string;
+    alt: string;
     value: string;
     date: string;
     firstInfo: string;
     secondInfo: string;
 }
 
-export function Card({title, imageSrc, src, value, date, firstInfo, secondInfo}: Props) {
+export function Card({title, imageSrc, alt, value, date, firstInfo, secondInfo}: Props) {
     return (
         <C.Card>
             <C.CardTagTop></C.CardTagTop>
             <C.CardTagBottom>{value}</C.CardTagBottom>
 
-            <img src={imageSrc} alt={src} />
+            <img src={imageSrc} alt={alt} />
             <C.CardContent>
                 <C.CardTitle>{title}</C.CardTitle>
                 

@@ -48,13 +48,14 @@ export const CardDescription = styled.ul`
     display: flex;
     flex-direction: column;
     padding: 0;
+    margin-top: 10px;
 `
 
 export const CardDescriptionItem = styled.li`
     font-size: .9rem;
     display: flex;
     align-items: center;
-    margin: 6px 0;
+    margin: 4px 0;
     color: grey;
     font-weight: bold;
 `
