@@ -16,7 +16,8 @@ export const ServiceWrapper = styled.div`
     display: flex;
     max-width: 950px;
     justify-content: center;
-    margin: 25px auto;
     flex-wrap: wrap;
     align-items: center;
+    padding-bottom: 25px;
+    margin: 0 auto;
 `

@@ -4,7 +4,7 @@ import { MapMarkedAlt } from '@styled-icons/fa-solid';
 import { FirstAid } from '@styled-icons/foundation';
 import { TravelBus } from '@styled-icons/zondicons';
 
-export function Services() {
+export function ServiceSection() {
     return (
         <C.Container>
             <C.Title>Nossos Serviços</C.Title>
