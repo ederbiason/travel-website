@@ -15,6 +15,7 @@ export function MapMap() {
     const mapContainerStyle = useMemo(() => ({
         width: '100%',
         height: '400px',
+        borderRadius: '8px',
     }), [])
 
     const center = useMemo<LatLngLiteral>(() => ({lat: -23.427320, lng: -51.936958}), [])
@@ -32,14 +33,14 @@ export function MapMap() {
 
     return (
         <>
-            <C.Title><span>⛰️</span>Eco Adrenaline</C.Title>
-            <GoogleMap
+            <GoogleMap 
                 mapContainerStyle={mapContainerStyle}
                 zoom={8}
                 center={center}
                 options={options}
                 onLoad={onLoad}
             >
+                <C.Title><span>⛰️</span>Eco Adrenaline</C.Title>
             </GoogleMap>
         </>
     )
