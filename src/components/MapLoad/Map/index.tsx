@@ -23,6 +23,9 @@ export function MapMap() {
         disableDefaultUI: true,
         clickableIcons: false,
         zoomControl: true,
+        zoomControlOptions: {
+            position: google.maps.ControlPosition.TOP_RIGHT
+        }
     }), [])
 
     const onLoad = useCallback((map: any) => (mapRef.current = map), [])
