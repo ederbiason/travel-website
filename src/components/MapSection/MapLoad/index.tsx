@@ -24,6 +24,7 @@ export function MapLoad({libraries}: Props) {
 
     return (
         <C.Wrapper>
+            <C.ContactTitle>Contato</C.ContactTitle>
 
             <C.ContactCard>
                 <C.Title>Entre em contato</C.Title>

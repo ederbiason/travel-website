@@ -1,9 +1,17 @@
 import styled from "styled-components";
 
 export const Wrapper = styled.section`
-    padding: 60px;
+    padding: 25px 60px;
     position: relative;
     background-color: #ECFAD8;
+    color: #000;
+`
+
+export const ContactTitle = styled.h1`
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 25px;
 `
 
 export const ContactCard = styled.div`
@@ -15,15 +23,14 @@ export const ContactCard = styled.div`
 
     border-radius: 8px;
 
-    top: calc(50% - 150px);
-    left: calc(20% - 175px);
+    top: calc(50% - 115px);
+    left: calc(20% - 200px);
     
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     box-shadow: 0 1px 6px 0 rgba(32, 33, 36, .28);
-    color: #000;
 
     display: flex;
     flex-direction: column;
